@@ -45,6 +45,22 @@ Includes:
 
 ---
 
+## 🔁 Implications to Other Tasks
+
+📄 Run [`train/Implications_Other_Tasks.ipynb`](train/Implications_Other_Tasks.ipynb)
+
+This notebook includes:
+- Embedding extraction from trained LSTM (`.h5`)
+- Linear probing on learned features using Logistic Regression
+- PCA-based dimensionality reduction
+- Probing accuracy comparison with original models
+
+Demonstrates that LSTM learns transferable representations, opening doors for:
+- Feature reuse in other tasks (zero-shot transfer)
+- Low-resource cricket scenarios (linear probing, compression)
+
+---
+
 ## Inference Guide
 
 You can test the trained models on **custom, user-defined delivery data** using the notebook:
